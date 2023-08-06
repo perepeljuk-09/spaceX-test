@@ -1,0 +1,28 @@
+.launch-item {
+  margin: 7px 0;
+  border-radius: 12px;
+  border: rgb(17, 128, 146) solid 1px;
+  padding: 6px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.launch-item h3,
+.launch-item h4,
+.launch-item .launch-item__text_semibold {
+  font-weight: 700;
+}
+
+.launch-item .launch-item__text_normal {
+  font-weight: 400;
+}
+.launch-item .launch-item__rocket {
+  width: 300px;
+}
+
+.launch-item__mission {
+  display: flex;
+  justify-content: space-between;
+}
